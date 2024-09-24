@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleViewAssignedOrderDetails"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Details"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#35CB54"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            android:layout_marginLeft="15dp"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomername"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            android:layout_marginLeft="15dp"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomeraddress"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:layout_marginLeft="15dp"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomercontact"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomerdistrict"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomercity"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="order subtotal"
+            android:layout_marginLeft="15dp"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomersubtotal"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="order delivery cost"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomerdeliverycost"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Order net total"
+            android:textSize="25sp"
+            android:textColor="#35CB54"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order net total"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/loadcustomernettotal"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/hiidenuseremailz"
+        ></TextView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:id="@+id/updatelocatonz"
+        android:text="Update Order Location"
+        ></Button>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:id="@+id/completeorderz"
+        android:text="Complete this order"
+        ></Button>
+</LinearLayout>
+</ScrollView>

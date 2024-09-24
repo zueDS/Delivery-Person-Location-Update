@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="5dp"
+        >
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/usercoupon"
+                android:layout_gravity="center"
+                ></ImageView>
+        </LinearLayout>
+        <Space android:layout_width="20dp" android:layout_height="match_parent"></Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Coupon ID"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:id="@+id/loadincouponid"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Date"
+                android:textSize="25sp"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:id="@+id/loadincouponamountz"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/loadingcouponidhidden"
+                ></TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Select this coupon"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/viewdetailscoupon"
+                android:background="@drawable/button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
