@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SelectPaymentType">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select payment type for order"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#35CB54"
+        android:layout_marginLeft="20dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/money"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"></Space>
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Pay by Cash"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/paybycash"
+            >
+
+        </Button>
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/coupon"-->
+<!--            />-->
+<!--        <Space-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="match_parent"></Space>-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:background="@drawable/button"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Pay by coupons"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:id="@+id/paybycoupoun"-->
+<!--            >-->
+
+<!--        </Button>-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
