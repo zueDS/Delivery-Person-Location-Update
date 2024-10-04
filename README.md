@@ -1,7 +1,5 @@
 # Delivery-Person-Location-Update
 
-<div>DEVELOPING (In-progress)</div> 
-<div>GIT UPDATE (In-progress)</div>
 <br>
 
 <div>***PROJECT UI***</div>
